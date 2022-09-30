@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- tabicon -->
+        <link
+            rel="shortcut icon"
+            href="/assets/img/favicon.png"
+            type="image/x-icon"
+            />
+        <!-- icons css link -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+            />
+        <!-- css swiper animation -->
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="/assets/css/styles.css" />
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"> Zed </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-heart-line"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualifications
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                            <i class="ri-image-2-line"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__buttons">
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-4-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <!-- homepage -->
+            <section class="home section" id="home">
+                <div class="home__container container grid section__border">
+                    <div class="home__data grid">
+                        <h1 class="home__title">
+                            Hi, I'm Zed <br>
+                            Fullstack Developer <br>
+                            Living in Mandaluyong <br>
+                        </h1>
+                        <div class="home__blob grid">
+                            <div class="home__perfil">
+                                <img src="/assets/img/perfil.png" alt="home perfil" />
+                            </div>
+                            <img
+                                src="/assets/img/shape-wawes.svg"
+                                alt=""
+                                class="home__shape-wawes"
+                                >
+                            <img
+                                src="/assets/img/shape-circle.svg"
+                                alt=""
+                                class="home__shape-circle"
+                                />
+                        </div>
+                        <ul class="home__social">
+                            <a
+                                href="https://www.linkedin.com/in/zed-liwanag-753632251/"
+                                target="_blank"
+                                class="home__social-link"
+                                >
+                            <i class="ri-linkedin-box-line"></i>
+                            </a>
+                            <a
+                                href="https://github.com/jzzedy"
+                                target="_blank"
+                                class="home__social-link"
+                                >
+                            <i class="ri-github-line"></i>
+                            </a>
+                            <a
+                                href="https://www.facebook.com/zedric.liwanag"
+                                target="_blank"
+                                class="home__social-link"
+                                >
+                            <i class="ri-facebook-box-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">BIOGRAPHY</h3>
+                            <p class="home__info-description">
+                                Hi, I'm Zed. A Fullstack Developer. Focusing on MERN stack web
+                                designs. I live in Mandaluyong City.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">CONTACT</h3>
+                            <p class="home__info-description">
+                                Brgy. Addition Hills, Mandaluyong City <br />
+                                zedliwanag07@gmail.com <br />
+                                +(63)9499337148 <br />
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">SERVICES</h3>
+                            <p class="home__info-description">
+                                Fullstack Website Creation <br />
+                                Android/Ios Application Creation<br />
+                                Fullstack Application Design <br />
+                            </p>
+                        </div>
+                    </div>
+                    <div class="home__info">
+                        <div>
+                            <h3 class="home__info-title">EXPERIENCE</h3>
+                            <p class="home__info-number">Self-thought for about 2 years.</p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">PROJECTS MADE</h3>
+                            <p class="home__info-number">03</p>
+                        </div>
+                        <div>
+                            <h3 class="home__info-title">LANGUAGES LEARNED</h3>
+                            <p class="home__info-number">03+</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- skills page -->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My skills</span>
+                <div class="skills__container container grid section__border">
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-window-line"></i> Frontend Development
+                        </h3>
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="/assets/img/html-1.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="/assets/img/css-3.svg" alt="skills image" >
+                                </div>
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img
+                                        src="/assets/img/logo-javascript.svg"
+                                        alt="skills image"
+                                        />
+                                </div>
+                                <h3 class="skills__name">JAVASCRIPT</h3>
+                                <span class="skills__subtitle">Proficient</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="/assets/img/react-2.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">REACT</h3>
+                                <span class="skills__subtitle">Proficient</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="/assets/img/python-5.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">Python</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__content">
+                        <h3 class="skills__title">
+                            <i class="ri-android-line"></i></i> Fullstack Android App Creation
+                        </h3>
+                        <div class="skills__info">
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="/assets/img/logo-android.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">
+                                    ANDROID
+                                </h3>
+                                <span class="skills__subtitle">Proficient</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="/assets/img/firebase-1.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">FIREBASE</h3>
+                                <span class="skills__subtitle">Proficient</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img
+                                        src="/assets/img/mongodb-icon-1.svg"
+                                        alt="skills image"
+                                        />
+                                </div>
+                                <h3 class="skills__name">MONGODB</h3>
+                                <span class="skills__subtitle">Basic</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img
+                                        src="/assets/img/adobe-photoshop-2.svg"
+                                        alt="skills image"
+                                        />
+                                </div>
+                                <h3 class="skills__name">PHOTOSHOP</h3>
+                                <span class="skills__subtitle">Intermediate</span>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__blob">
+                                    <img src="/assets/img/flutter.svg" alt="skills image">
+                                </div>
+                                <h3 class="skills__name">FLUTTER</h3>
+                                <span class="skills__subtitle">Proficient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- educ -->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle">Education and Experience</span>
+                <div class="qualification__container container grid section__border">
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-ball-pen-line"></i>Education
+                        </h3>
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">Computer Engineering</h3>
+                                <span class="qualification__country"
+                                    >Rizal Technological University</span
+                                    >
+                                <span class="qualification__year">2018-2023</span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__name">General Academic Strand</h3>
+                                <span class="qualification__country"
+                                    >Mount Carmel College of Casiguran</span
+                                    >
+                                <span class="qualification__year">2013-2018</span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__name">Elementary</h3>
+                                <span class="qualification__country"
+                                    >Casiguran Central School</span
+                                    >
+                                <span class="qualification__year">2007-2012</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification__content">
+                        <h3 class="qualification__title">
+                            <i class="ri-building-line"></i> Experience
+                        </h3>
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">Self-thought Web Developer</h3>
+                                <span class="qualification__country"
+                                    >Learned web developing by myself</span
+                                    >
+                                <span class="qualification__year">2020-2022</span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__name">
+                                    Self-thought Python Developer
+                                </h3>
+                                <span class="qualification__country"
+                                    >Studied Python Programming</span
+                                    >
+                                <span class="qualification__year" 2020-2022></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__name">
+                                    Self-thought Android Developer
+                                </h3>
+                                <span class="qualification__country"
+                                    >Learned Android Studio essentials</span
+                                    >
+                                <span class="qualification__year">2020-2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img
+                    src="/assets/img/shape-circle.svg"
+                    alt="qualification image"
+                    class="qualification__img"
+                    />
+            </section>
+            <!-- services section -->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">How can I be of help?</span>
+                <div class="services__container container grid section__border">
+                    <div class="services__card">
+                        <i class="ri-window-line"></i>
+                        <h2 class="services__title">
+                            Frontend <br />
+                            Design
+                        </h2>
+                        <p class="services__description">
+                            I can help with your website design, and also build the backend
+                            API to your liking.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+                    <div class="services__card">
+                        <i class="ri-android-line"></i>
+                        <h2 class="services__title">
+                            Android App <br />
+                            Design
+                        </h2>
+                        <p class="services__description">
+                            I can build a fullstack android application, and add non-existent
+                            features to it.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+                    <div class="services__card">
+                        <i class="ri-code-line"></i>
+                        <h2 class="services__title">
+                            Python <br />
+                            Software Design
+                        </h2>
+                        <p class="services__description">
+                            I can help with you build softwares using python language.
+                        </p>
+                        <div class="services__border"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- myprojects section -->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Projects on the making</span>
+                <div class="container section__border">
+                    <div class="projects__container swiper">
+                        <div class="swiper-wrapper">
+                            <div class="projects__content swiper-slide">
+                                <img
+                                    src="/assets/img/project1.jpg"
+                                    alt="projects image"
+                                    class="projects__img"
+                                    >
+                                <div>
+                                    <span class="projects__subtitle">Android</span>
+                                    <h1 class="projects__title">Expense Tracker</h1>
+                                    <a href="#" class="projects__button">
+                                    View Project
+                                    <i class="ri-folder-open-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img
+                                    src="/assets/img/project2.jpg"
+                                    alt="projects image"
+                                    class="projects__img"
+                                    >
+                                <div>
+                                    <span class="projects__subtitle">MERN Stack Website</span>
+                                    <h1 class="projects__title">Hotel Booking Site</h1>
+                                    <a href="#" class="projects__button">
+                                    View Project
+                                    <i class="ri-folder-open-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img
+                                    src="/assets/img/project3.jpg"
+                                    alt="projects image"
+                                    class="projects__img"
+                                    />
+                                <div>
+                                    <span class="projects__subtitle">Python</span>
+                                    <h1 class="projects__title">Music Player Software</h1>
+                                    <a href="#" class="projects__button">
+                                    View Project
+                                    <i class="ri-folder-open-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="projects__content swiper-slide">
+                                <img
+                                    src="/assets/img/project4.jpg"
+                                    alt="projects image"
+                                    class="projects__img"
+                                    />
+                                <div>
+                                    <span class="projects__subtitle">Python</span>
+                                    <h1 class="projects__title">Currency Converter Software</h1>
+                                    <a href="#" class="projects__button">
+                                    View Project
+                                    <i class="ri-folder-open-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- recommend -->
+            <section class="testimonial section">
+                <h2 class="section__title">Testimonial</h2>
+                <span class="section__subtitle">My friends testimonials</span>
+                <div class="container__section__border">
+                    <div class="testimonial__container swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">
+                                    "Having a friend like Zed who is pro at everything is a good
+                                    benefit to me. I recommend him to everyone who is looking for
+                                    a decent project to be made"
+                                </p>
+                                <div>
+                                    <h3 class="testimonial__name">Darwin Lustre</h3>
+                                    <span class="testimonial__subtitle">Friend</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">
+                                    "Working and being friends with Zed is totally cool, everytime
+                                    we make a project, he's always full of ideas. And bring them
+                                    to life"
+                                </p>
+                                <div>
+                                    <h3 class="testimonial__name">Reymart Bawisan</h3>
+                                    <span class="testimonial__subtitle">Friend</span>
+                                </div>
+                            </div>
+                            <div class="testimonial__content swiper-slide">
+                                <p class="testimonial__description">
+                                    "My ex-friend Zed is good at programming, thats why I left
+                                    him, he always discourages me to work because I know I can't
+                                    beat him."
+                                </p>
+                                <div>
+                                    <h3 class="testimonial__name">Mark Ivan Marcelino</h3>
+                                    <span class="testimonial__subtitle">Ex-Friend</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                    </div>
+                </div>
+                <img
+                    src="/assets/img/shape-wawes.svg"
+                    alt="testimonial image"
+                    class="testimonial__img"
+                    />
+            </section>
+            <!-- contact pagge -->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me!</h2>
+                <span class="section__subtitle">Stay in touch with me</span>
+
+                <div class="contact__container container grid section__border">
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-chat-3-line"></i> Message me
+                        </h3>
+
+                        <div class="contact__info">
+                            <div class="contact__data">
+                                <span class="contact__data-title">Email</span>
+                                <span class="contact__data-info">zedliwanag07@gmail.com</span>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Whatsapp</span>
+                                <span class="contact__data-info">(+63)9499337148</span>
+                                <a href="https://wa.me/+639499337148" target="_blank" class="contact__button">
+                                    Call or Text me <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+
+                            <div class="contact__data">
+                                <span class="contact__data-title">Messenger</span>
+                                <span class="contact__data-info">m.me/zedric.liwanag</span>
+                                <a href="https://m.me/zedric.liwanag" target="_blank" class="contact__button">
+                                    Chat me <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__content">
+                        <h3 class="contact__title">
+                            <i class="ri-send-plane-line"></i> Write me your project
+                        </h3>
+
+                        <form action="" class="contact__form" id="contact-form">
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Names</label>
+                                <input type="text" name="user_name" required placeholder="Write your names" class="contact__form-input" id="contact-name">
+                            </div>
+
+                            <div class="contact__form-div">
+                                <label class="contact__form-tag">Mail</label>
+                                <input type="email" name="user_email" required placeholder="Write your email" class="contact__form-input" id="contact-email">
+                            </div>
+
+                            <div class="contact__form-div contact__form-area">
+                                <label class="contact__form-tag">Project</label>
+                                <textarea name="user_project" placeholder="Write your project" class="contact__form-input" id="contact-project"></textarea>
+                            </div>
+
+                            <p class="contact__message" id="contact-message"></p>
+
+                            <button type="submit" class="contact__button">
+                                Submit <i class="ri-arrow-right-up-line"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        <!-- lastpage -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Zed</h1>
+                <p>Frontend Developer</p>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#home" class="footer__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="footer__link">Projects</a>
+                    </li>
+                </ul>
+                <ul class="footer__social">
+                    <a href="https://www.linkedin.com/in/zed-liwanag-753632251/" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/jzzedy" target="_blank" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.facebook.com/zedric.liwanag" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-box-line"></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                &#169; Made by Zed. All rights reserved.
+                </span>
+            </div>
+        </footer>
+        <!-- scroll&page anim -->
+        <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i></a>
+        <script src="/assets/js/scrollreveal.min.js"></script>
+        <script src="/assets/js/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body>
+</html>
